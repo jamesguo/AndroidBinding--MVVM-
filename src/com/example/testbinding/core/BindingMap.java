@@ -1,4 +1,4 @@
-package com.example.testbinding;
+package com.example.testbinding.core;
 
 import java.util.HashMap;
 import java.util.Hashtable;
@@ -73,7 +73,7 @@ public class BindingMap {
 
 		@Override
 		public String toString() {
-			return name + "_handled=" + handled;
+			return name + ":handled=" + handled;
 		}
 	}
 

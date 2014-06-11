@@ -1,4 +1,4 @@
-package com.example.testbinding;
+package com.example.testbinding.core;
 
 public class SyntaxResolveException extends Exception {
 	private static final long serialVersionUID = -5339580312141946507L;

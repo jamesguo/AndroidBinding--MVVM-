@@ -5,8 +5,8 @@ import java.util.Collection;
 
 import android.content.Context;
 
-import com.example.testbinding.BindingType;
-import com.example.testbinding.Undetermined;
+import com.example.testbinding.core.BindingType;
+import com.example.testbinding.core.Undetermined;
 import com.example.testbinding.observable.IObservable;
 import com.example.testbinding.observable.Observable;
 import com.example.testbinding.observer.Observer;
@@ -77,6 +77,9 @@ public abstract class Attribute<Th, T> extends Observable<T> {
 
 	/*
 	 * Hook to allow modifying of binding behavior in subclasses
+	 * 
+	 * 
+	 * 
 	 */
 	protected void onBind(Context context, IObservable<?> prop, BindingType binding) {
 		mBridge = new Bridge(this, prop);
@@ -107,6 +110,9 @@ public abstract class Attribute<Th, T> extends Observable<T> {
 		return mBridge.mBindedObservable;
 	}
 
+	/**
+	 * @author yrguo 桥接（观察者）
+	 */
 	class Bridge implements Observer {
 		Attribute<Th, T> mAttribute;
 		IObservable<?> mBindedObservable;

@@ -1,4 +1,4 @@
-package com.example.testbinding;
+package com.example.testbinding.core;
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 
+import com.example.testbinding.TestCachebean;
 import com.example.testbinding.attribute.ViewAttribute;
 import com.example.testbinding.observable.IObservable;
 import com.example.testbinding.provider.BindingProvider;

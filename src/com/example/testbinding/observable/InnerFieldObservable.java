@@ -3,10 +3,10 @@ package com.example.testbinding.observable;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.example.testbinding.Binder;
-import com.example.testbinding.SyntaxResolveException;
-import com.example.testbinding.Undetermined;
-import com.example.testbinding.WeakList;
+import com.example.testbinding.core.Binder;
+import com.example.testbinding.core.SyntaxResolveException;
+import com.example.testbinding.core.Undetermined;
+import com.example.testbinding.core.WeakList;
 import com.example.testbinding.observer.Observer;
 
 public class InnerFieldObservable<T> implements IObservable<T>, Undetermined {

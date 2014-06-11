@@ -2,7 +2,7 @@ package com.example.testbinding.observable;
 
 import android.view.View;
 
-import com.example.testbinding.WeakList;
+import com.example.testbinding.core.WeakList;
 
 public abstract class Command extends Observable<Command> {
 	public Command() {

@@ -9,11 +9,11 @@ import java.util.regex.Pattern;
 import android.content.Context;
 import android.util.TypedValue;
 
-import com.example.testbinding.IPropertyContainer;
-import com.example.testbinding.IReferenceObservableProvider;
-import com.example.testbinding.SyntaxResolveException;
 import com.example.testbinding.attribute.layout.BindingLayout;
 import com.example.testbinding.attribute.layout.SingleTemplateLayout;
+import com.example.testbinding.core.IPropertyContainer;
+import com.example.testbinding.core.IReferenceObservableProvider;
+import com.example.testbinding.core.SyntaxResolveException;
 import com.example.testbinding.observable.ConstantObservable;
 import com.example.testbinding.observable.Converter;
 import com.example.testbinding.observable.FloatObservable;

@@ -2,8 +2,8 @@ package com.example.testbinding.syntaxresolver;
 
 import android.content.Context;
 
-import com.example.testbinding.IReferenceObservableProvider;
-import com.example.testbinding.SyntaxResolveException;
+import com.example.testbinding.core.IReferenceObservableProvider;
+import com.example.testbinding.core.SyntaxResolveException;
 import com.example.testbinding.observable.IObservable;
 
 public interface ISyntaxResolver {

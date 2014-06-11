@@ -3,7 +3,7 @@ package com.example.testbinding.observable;
 import java.util.Collection;
 import java.util.HashMap;
 
-import com.example.testbinding.IPropertyContainer;
+import com.example.testbinding.core.IPropertyContainer;
 import com.example.testbinding.observer.Observer;
 
 public class DynamicObject extends Observable<DynamicObject> implements IPropertyContainer, Observer {

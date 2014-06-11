@@ -7,7 +7,7 @@ import org.json.JSONObject;
 
 import android.content.Context;
 
-import com.example.testbinding.BindingMap;
+import com.example.testbinding.core.BindingMap;
 
 public class Utility {
 	public static BindingMap createBindingMap(String attrs) {

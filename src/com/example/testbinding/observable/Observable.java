@@ -3,9 +3,18 @@ package com.example.testbinding.observable;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.example.testbinding.WeakList;
+import com.example.testbinding.core.WeakList;
 import com.example.testbinding.observer.Observer;
 
+/**
+ * @author yrguo
+ * 
+ * @param <T>
+ * 
+ * 
+ *            被观察者
+ * 
+ */
 public class Observable<T> implements IObservable<T> {
 	@Override
 	public String toString() {
@@ -14,6 +23,9 @@ public class Observable<T> implements IObservable<T> {
 		return "null";
 	}
 
+	/**
+	 * 观察者列表
+	 */
 	private WeakList<Observer> observers = new WeakList<Observer>();
 	private T mValue;
 	private final Class<T> mType;

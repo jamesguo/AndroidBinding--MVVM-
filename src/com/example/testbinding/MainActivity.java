@@ -1,5 +1,9 @@
 package com.example.testbinding;
 
+import com.example.testbinding.core.Binder;
+import com.example.testbinding.core.Binding;
+import com.example.testbinding.core.DefaultKernel;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;

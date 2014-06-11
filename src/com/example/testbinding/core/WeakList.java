@@ -1,4 +1,4 @@
-package com.example.testbinding;
+package com.example.testbinding.core;
 
 import java.lang.ref.WeakReference;
 import java.util.AbstractList;

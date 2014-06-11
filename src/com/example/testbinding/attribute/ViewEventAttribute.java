@@ -2,7 +2,7 @@ package com.example.testbinding.attribute;
 
 import android.view.View;
 
-import com.example.testbinding.FieldTag;
+import com.example.testbinding.core.FieldTag;
 import com.example.testbinding.observable.Command;
 
 public abstract class ViewEventAttribute<T extends FieldTag> extends ViewAttribute<T, Command> {

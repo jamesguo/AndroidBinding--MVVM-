@@ -2,9 +2,9 @@ package com.example.testbinding.provider;
 
 import android.widget.TextView;
 
-import com.example.testbinding.FieldTag;
-import com.example.testbinding.attribute.TextViewAttribute;
 import com.example.testbinding.attribute.ViewAttribute;
+import com.example.testbinding.attribute.textview.TextViewAttribute;
+import com.example.testbinding.core.FieldTag;
 
 public class TextViewProvider extends BindingProvider {
 

@@ -1,11 +1,12 @@
-package com.example.testbinding.attribute;
+package com.example.testbinding.attribute.textview;
 
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.TextView;
 
-import com.example.testbinding.BindingType;
-import com.example.testbinding.FieldTag;
+import com.example.testbinding.attribute.ViewAttribute;
+import com.example.testbinding.core.BindingType;
+import com.example.testbinding.core.FieldTag;
 
 public class TextViewAttribute extends ViewAttribute<FieldTag, CharSequence> implements TextWatcher {
 

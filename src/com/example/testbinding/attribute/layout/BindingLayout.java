@@ -1,6 +1,6 @@
 package com.example.testbinding.attribute.layout;
 
-import com.example.testbinding.Binder.InflateResult;
+import com.example.testbinding.core.Binder.InflateResult;
 
 public abstract class BindingLayout {
 	private int mDefaultId = -1;

@@ -1,4 +1,4 @@
-package com.example.testbinding;
+package com.example.testbinding.core;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

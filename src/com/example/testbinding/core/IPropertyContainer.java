@@ -1,4 +1,4 @@
-package com.example.testbinding;
+package com.example.testbinding.core;
 
 import com.example.testbinding.observable.Command;
 import com.example.testbinding.observable.IObservable;
